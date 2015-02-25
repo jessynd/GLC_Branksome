@@ -44,6 +44,7 @@ h1 {
 h2, h3, h4 {
 	font-weight: 300;
 	color: #333333;
+	text-align: center;
 }
 h2 {
 	font-size: 40px;
@@ -158,6 +159,9 @@ a.button:hover {
 	color: black;
 }
 
+.press {
+	padding: 20px;
+}
 .press ul {
 	padding: 0;
 	text-align: center;
