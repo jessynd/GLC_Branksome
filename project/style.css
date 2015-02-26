@@ -39,7 +39,6 @@ h1 {
 	vertical-align: middle;
 	margin: 0;
 	color: black;
-
 }
 
 h2, h3, h4 {
@@ -47,6 +46,7 @@ h2, h3, h4 {
 	color: #333333;
 	text-align: center;
 }
+
 h2 {
 	font-size: 40px;
 	line-height: 50px;
@@ -72,7 +72,7 @@ a:hover{
 }
 
 section {
-	padding: 10% 0px;
+	padding: 2% 0px;
 }
 
 p {
@@ -97,6 +97,7 @@ nav {
 	z-index: 3;
 	background: white;
 }
+
 nav ul {
 	list-style-type: none;
 	padding: 0;
@@ -104,20 +105,18 @@ nav ul {
 	text-align: right;
 	width: 50%;
 	vertical-align: middle;
-
 }
 
 nav ul li {
 	display: inline-block;
 	font-size: 24px;
 	padding: 10px;
-
 }
 
 header {
 	padding: 100px 0;
 	text-align: center;
-	background:  url(images/girls-on-leaves.jpg);
+	background:  url(images/glccamp.jpg);
 	background-size: cover;
 	background-position: 50%;
 	background-attachment: fixed;
@@ -130,7 +129,6 @@ header {
 
 header h2 {
 	color: white;
-
 }
 
 p.tagline {
@@ -147,11 +145,10 @@ main {
 	display: inline-block;
 	padding: 2px;
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 50%;
-	padding: 50px;
-	transform: translateY(-50%) translateX(-50%);
-	
+	padding: 40px;
+	transform: translateY(-50%) translateX(-50%);	
 }
 
 .purple-box{
@@ -172,6 +169,7 @@ a.button {
 	border: 1px solid black;
 	color: black;
 }
+
 a.button:hover {
 	background: white;
 	color: black;
@@ -225,8 +223,8 @@ p.price {
 
 .right {
 	font-size: 18px;
-
 }
+
 /*IMPACT SECTION BEGINS*/
 section.impact p {
 	width: 50%;
@@ -239,9 +237,8 @@ section.impact p {
 .impact li {
 	display: inline-block;
 	width: 33%;
-	padding: 20px;
+	padding: 0 20px;
 	vertical-align: middle;
-
 }
 
 figure {
@@ -255,8 +252,6 @@ figure {
 	padding: 30px;
 }
 
-
-
 .impact svg {
 	width: 150px;
 	height: 150px;
@@ -264,7 +259,6 @@ figure {
 	fill: rgba(255,255,255,0.9);
 	vertical-align: bottom;
 }
-
 
 svg.keyboard path:hover {
 	fill: purple;
@@ -297,7 +291,6 @@ svg.button:hover {
 iframe {
 	display: inline-block;
 	margin: 20px;
-
 }
 
 
@@ -321,7 +314,6 @@ footer {
 	color: white;
 	padding: 20px;
 	text-align: center;
-
 }
 
 p.copyright {
