@@ -302,7 +302,7 @@ iframe {
 /*LAST CALL TO ACTION*/
 
 .last-bid {
-	background: linear-gradient(rgba(177, 9, 170, 0.6),rgba(177, 9, 170, 0.6)), url(images/goofy-girls.jpg);
+	background: linear-gradient(rgba(177, 9, 170, 0.8),rgba(177, 9, 170, 0.8)), url(images/goofy-girls.jpg);
 	background-position: 50%;
 	background-attachment: fixed;
 	background-size: cover;
@@ -312,11 +312,7 @@ iframe {
 	color: black;
 }
 
-.last-bit p, .last-bit h2, .last-bit h3 {
-	color: black;
-}
-
-/*footer*/
+/*FOOTER STYLES START HERE*/
 
 footer {
 	background: #333;
@@ -337,12 +333,6 @@ footer ul {
 footer li {
 	display: inline;
 	padding: 10px;
-	
-	
-	/*border: 2px solid white;
-	border-radius: 50%;
-	height: 50px;
-	width: 50px;*/
 }
 
 footer a {
