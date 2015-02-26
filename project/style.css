@@ -239,25 +239,27 @@ section.impact p {
 .impact li {
 	display: inline-block;
 	width: 33%;
-	border-right: 1px solid gray;
 	padding: 20px;
 	vertical-align: middle;
 
 }
 
+figure {
+	padding: 10%;
+}
 .impact li h3 {
-	font-size: 24px;
+	font-size: 20px;
 	font-family: "Quicksand";
 	font-weight: 300;
+	margin-top: 20px;
+	padding: 30px;
 }
 
-.impact li:last-child{
-	border-right: none;
-}
+
 
 .impact svg {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	display: inline-block;
 	fill: rgba(255,255,255,0.9);
 	vertical-align: bottom;
