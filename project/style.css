@@ -72,13 +72,21 @@ a:hover{
 }
 
 section {
-	padding: 50px 0px;
+	padding: 10% 0px;
 }
 
-section:nth-child(2n+2){
+p {
+	font-size: 22px;
+}
+
+.purple{
 	background: #b109aa;
+	color: white;
 }
 
+.purple h2, .purple p, .purple h3 {
+	color: white;
+}
 
 nav {
 	padding: 10px 50px;
@@ -135,9 +143,8 @@ main {
 	width: 100%;
 }
 
-.circle {
+.purple-box, .white-box {
 	display: inline-block;
-	background: linear-gradient(rgba(177, 9, 170, 0.6),rgba(177, 9, 170, 0.6));
 	padding: 2px;
 	position: absolute;
 	top: 50%;
@@ -147,6 +154,11 @@ main {
 	
 }
 
+.purple-box{
+	background: linear-gradient(rgba(177, 9, 170, 0.6),rgba(177, 9, 170, 0.6));
+}
+
+
 a.button {
 	color: white;
 	border: 1px solid white;
@@ -154,6 +166,11 @@ a.button {
 	border-radius: 3px;
 	margin-top: 20px;
 	display: inline-block;
+}
+
+.product .button {
+	border: 1px solid black;
+	color: black;
 }
 a.button:hover {
 	background: white;
@@ -170,9 +187,174 @@ a.button:hover {
 .press li {
 	display: inline-block;
 	padding: 0 20px;
+	vertical-align: top;
 }
 
 .press li img {
 	-webkit-filter: grayscale(100%);
 	opacity: 0.7;
+}
+
+/*PRODUCT SECTION BEGINS*/
+
+section.product {
+	padding: 0;
+	font-size: 0;
+	background: white;
+}
+
+.right, .left {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+}
+
+.right {
+	width: 50%;
+	text-align: center;
+}
+
+p.price {
+	font-size: 100px;
+	color: #b109aa;
+}
+
+.left img {
+	margin: 0;
+}
+
+.right {
+	font-size: 18px;
+
+}
+/*IMPACT SECTION BEGINS*/
+section.impact p {
+	width: 50%;
+}
+.impact ul {
+	padding: 0;
+	text-align: center;
+}
+
+.impact li {
+	display: inline-block;
+	width: 33%;
+	border-right: 1px solid gray;
+	padding: 20px;
+	vertical-align: middle;
+
+}
+
+.impact li h3 {
+	font-size: 24px;
+	font-family: "Quicksand";
+	font-weight: 300;
+}
+
+.impact li:last-child{
+	border-right: none;
+}
+
+.impact svg {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	fill: rgba(255,255,255,0.9);
+	vertical-align: bottom;
+}
+
+
+svg.keyboard path:hover {
+	fill: purple;
+}
+	
+svg.joy:hover {
+	-webkit-animation-name:bounce;
+	animation-name: bounce;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+svg.button:hover {
+	-webkit-animation-name:tada;
+	animation-name: tada ;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+
+/* JOIN THE CONVERSATION*/
+
+.share {
+	text-align: center;
+}
+iframe {
+	display: inline-block;
+	margin: 20px;
+
+}
+
+
+/*LAST CALL TO ACTION*/
+
+.last-bid {
+	background: linear-gradient(rgba(177, 9, 170, 0.6),rgba(177, 9, 170, 0.6)), url(images/goofy-girls.jpg);
+	background-position: 50%;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	padding: 20%;
+	position: relative;
+	color: black;
+}
+
+.last-bit p, .last-bit h2, .last-bit h3 {
+	color: black;
+}
+
+/*footer*/
+
+footer {
+	background: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+
+}
+
+p.copyright {
+	font-size: 16px;
+	color: #b109aa;
+}
+
+footer ul {
+	padding: 0;
+}
+footer li {
+	display: inline;
+	padding: 10px;
+	
+	
+	/*border: 2px solid white;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;*/
+}
+
+footer a {
+	transition: all 0.5s;
+	color: #b109aa;
+	font-size: 28px;
+}
+
+footer a:hover {
+	color: white;
+}
+
+footer i {
+	font-size: 32px;
 }
